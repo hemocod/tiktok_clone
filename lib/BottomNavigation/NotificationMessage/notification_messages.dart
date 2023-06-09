@@ -7,7 +7,7 @@ import '../../Locale/languages/locale.dart';
 
 class NotificationMessages extends StatefulWidget {
   @override
-  _NotificationMessagesState createState() => _NotificationMessagesState();
+  _NotificationMessagesState get createState => _NotificationMessagesState();
 }
 
 class Notif {

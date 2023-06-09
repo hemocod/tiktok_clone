@@ -8,7 +8,7 @@ import '../../routes/routes.dart';
 import '../../theme/colors.dart';
 class EditProfile extends StatefulWidget {
   @override
-  _EditProfileState createState() => _EditProfileState();
+  _EditProfileState get createState => _EditProfileState();
 }
 
 class _EditProfileState extends State<EditProfile> {

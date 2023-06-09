@@ -10,7 +10,7 @@ import '../../Locale/languages/locale.dart';
 
 class PostInfo extends StatefulWidget {
   @override
-  _PostInfoState createState() => _PostInfoState();
+  _PostInfoState get createState => _PostInfoState();
 }
 
 class _PostInfoState extends State<PostInfo> {

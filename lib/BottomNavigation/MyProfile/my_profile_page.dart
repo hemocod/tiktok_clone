@@ -24,7 +24,7 @@ class MyProfilePage extends StatelessWidget {
 
 class MyProfileBody extends StatefulWidget {
   @override
-  _MyProfileBodyState createState() => _MyProfileBodyState();
+  _MyProfileBodyState get createState => _MyProfileBodyState();
 }
 
 class _MyProfileBodyState extends State<MyProfileBody> {

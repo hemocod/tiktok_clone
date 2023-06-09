@@ -38,7 +38,7 @@ class VerificationBody extends StatefulWidget {
   VerificationBody(this.onVerificationDone);
 
   @override
-  _VerificationBodyState createState() => _VerificationBodyState();
+  _VerificationBodyState get createState => _VerificationBodyState();
 }
 
 class _VerificationBodyState extends State<VerificationBody> {

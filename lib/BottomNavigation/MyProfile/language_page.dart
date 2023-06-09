@@ -8,7 +8,7 @@ import '../../routes/routes.dart';
 
 class ChangeLanguagePage extends StatefulWidget {
   @override
-  _ChangeLanguagePageState createState() => _ChangeLanguagePageState();
+  _ChangeLanguagePageState get createState => _ChangeLanguagePageState();
 }
 
 class _ChangeLanguagePageState extends State<ChangeLanguagePage> {

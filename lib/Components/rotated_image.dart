@@ -7,7 +7,7 @@ class RotatedImage extends StatefulWidget {
   RotatedImage(this.image);
 
   @override
-  _RotatedImageState createState() => _RotatedImageState();
+  _RotatedImageState get createState => _RotatedImageState();
 }
 
 class _RotatedImageState extends State<RotatedImage>

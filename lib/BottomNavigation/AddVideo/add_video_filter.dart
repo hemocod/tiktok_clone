@@ -8,7 +8,7 @@ import '../../Locale/languages/locale.dart';
 
 class AddVideoFilter extends StatefulWidget {
   @override
-  _AddVideoFilterState createState() => _AddVideoFilterState();
+  _AddVideoFilterState get createState => _AddVideoFilterState();
 }
 
 class _AddVideoFilterState extends State<AddVideoFilter> {

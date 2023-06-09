@@ -16,7 +16,7 @@ class ChatPage extends StatelessWidget {
 
 class ChatBody extends StatefulWidget {
   @override
-  _ChatBodyState createState() => _ChatBodyState();
+  _ChatBodyState get createState => _ChatBodyState();
 }
 
 class _ChatBodyState extends State<ChatBody> {

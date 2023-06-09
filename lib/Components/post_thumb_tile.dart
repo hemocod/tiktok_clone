@@ -6,7 +6,7 @@ class PostThumbTile extends StatefulWidget {
 
   PostThumbTile(this.mediaListData);
   @override
-  _PostThumbTileState createState() => _PostThumbTileState();
+  _PostThumbTileState get createState => _PostThumbTileState();
 }
 
 class _PostThumbTileState extends State<PostThumbTile> {

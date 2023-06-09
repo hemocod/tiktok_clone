@@ -37,7 +37,7 @@ class FollowingTabBody extends StatefulWidget {
   FollowingTabBody(this.videos, this.images, this.isFollowing, this.variable);
 
   @override
-  _FollowingTabBodyState createState() => _FollowingTabBodyState();
+  _FollowingTabBodyState get createState => _FollowingTabBodyState();
 }
 
 class _FollowingTabBodyState extends State<FollowingTabBody> {
@@ -122,7 +122,7 @@ class VideoPage extends StatefulWidget {
       {this.pageIndex, this.currentPageIndex, this.isPaused, this.isFollowing});
 
   @override
-  _VideoPageState createState() => _VideoPageState();
+  _VideoPageState get createState => _VideoPageState();
 }
 
 class _VideoPageState extends State<VideoPage> with RouteAware {

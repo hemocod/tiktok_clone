@@ -30,7 +30,7 @@ class RegisterPage extends StatelessWidget {
 
 class RegisterForm extends StatefulWidget {
   @override
-  _RegisterFormState createState() => _RegisterFormState();
+  _RegisterFormState get createState => _RegisterFormState();
 }
 
 class _RegisterFormState extends State<RegisterForm> {

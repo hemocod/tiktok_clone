@@ -16,7 +16,11 @@ class LoginPage extends StatelessWidget {
 
 class LoginBody extends StatefulWidget {
   @override
-  _LoginBodyState createState() => _LoginBodyState();
+  Future<_LoginBodyState> get reateState async => _LoginBodyState();
+  
+  @override
+  // TODO: implement createState
+  State<StatefulWidget> get createState => throw UnimplementedError();
 }
 
 class _LoginBodyState extends State<LoginBody> {

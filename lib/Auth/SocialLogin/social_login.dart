@@ -9,7 +9,7 @@ import '../../Locale/languages/locale.dart';
 
 class SocialLogin extends StatefulWidget {
   @override
-  _SocialLoginState createState() => _SocialLoginState();
+  _SocialLoginState get createState => _SocialLoginState();
 }
 
 class _SocialLoginState extends State<SocialLogin> {

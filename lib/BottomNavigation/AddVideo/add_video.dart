@@ -7,7 +7,7 @@ import '../../Locale/languages/locale.dart';
 
 class AddVideo extends StatefulWidget {
   @override
-  _AddVideoState createState() => _AddVideoState();
+  _AddVideoState get createState => _AddVideoState();
 }
 
 class _AddVideoState extends State<AddVideo> {

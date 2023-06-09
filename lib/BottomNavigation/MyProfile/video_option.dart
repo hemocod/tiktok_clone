@@ -16,7 +16,7 @@ class VideoOptionPage extends StatelessWidget {
 
 class VideoOption extends StatefulWidget {
   @override
-  _VideoOptionState createState() => _VideoOptionState();
+  _VideoOptionState get createState => _VideoOptionState();
 }
 
 class _VideoOptionState extends State<VideoOption> {

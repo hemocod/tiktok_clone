@@ -12,8 +12,9 @@ import 'Locale/languages/language_cubit.dart';
 
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(Phoenix(
-
+ 
       child: BlocProvider(
         create: (context) => LanguageCubit(),
         child: HomePage(),

@@ -43,7 +43,7 @@ class PageRoutes {
   Map<String, WidgetBuilder> routes() {
     return {
       loginNavigator: (context) => LoginNavigator(),
-      bottomNavigation: (context) => BottomNavigation(),
+      bottomNavigation: (context) => const BottomNavigation(),
       followersPage: (context) => FollowersPage(),
       helpPage: (context) => HelpPage(),
       tncPage: (context) => TnC(),

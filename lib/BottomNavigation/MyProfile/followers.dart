@@ -22,7 +22,7 @@ class FollowersPage extends StatelessWidget {
 
 class FollowersBody extends StatefulWidget {
   @override
-  _FollowersBodyState createState() => _FollowersBodyState();
+  _FollowersBodyState get createState => _FollowersBodyState();
 }
 
 class _FollowersBodyState extends State<FollowersBody> {

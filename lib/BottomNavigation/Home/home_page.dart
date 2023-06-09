@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
 
 class HomeBody extends StatefulWidget {
   @override
-  _HomeBodyState createState() => _HomeBodyState();
+  _HomeBodyState get createState => _HomeBodyState();
 }
 
 class _HomeBodyState extends State<HomeBody> {
